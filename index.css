@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	background-color: #edf2f1;
+}
+ul{
+	padding-left: 0px;
+}
+.hamberger{
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	z-index: 122;
+}
+.left{
+	width: 8%;
+	min-width: 100px;
+	height: 100vh;
+	box-shadow: 2px 0 5px -1px #696969;
+	float: left;
+}
+.sideBar li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 38px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.logo,.logo a,.logo a img{
+	background-color: #d1e3df
+}
+.link_name{
+	margin-left: -15px;
+}
+.lesson{
+	margin-left: -27px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li:active{
+	background-color: #619e91;
+}
+
+.active,.active a,.active a p,.active a img{
+	background-color: #99ccff;
+}
+.right{
+	height: 100vh;
+	margin-top: 40px;
+	float: left;
+	margin-left: 20px;
+}
+.back_bar{
+	float: left;
+	
+}
+.back_bar img{
+	height: 15px !important;
+	width: 15px !important;
+}
+.back_bar_content{
+	float: left;
+	padding-left: 5px;
+}
+
+.search_box{
+	margin-top: 50px;
+	padding-left: 150px;
+}
+#search_box{
+    height: 25px;
+    margin: 0 auto;
+    border: none;
+    border:solid 1px #ccc;
+    border-radius: 10px;
+}
+.or{
+	margin-top: 30px;
+	text-align: center;
+}
+.photo{
+	height: 200px;
+	width:200px;
+	margin-top: 30px;
+	background-color: white;
+	display: inline-block;
+}
+.upload{
+	background-color: white;
+	text-align: center;
+	padding-top: 85px;
+}
+
+@media only screen and (max-width: 600px) {
+  .left {
+    display: none;
+  }
+  .hamberger{
+  	display: block;
+  }
+  .left{
+	width: 8%;
+	min-width: 100px;
+	height: 100vh;
+	box-shadow: 2px 0 5px -1px #696969;
+	position: absolute;
+	z-index: 100;
+}
+}
